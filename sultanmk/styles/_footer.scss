@@ -1,0 +1,136 @@
+.footer {
+    background-color: #3F4E65;
+    padding: 20px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    .dv1-p{
+        max-width: 320px;
+        color: white;
+    }
+}
+
+.div2 {
+    li{
+        list-style: none;
+        color: white;
+    }
+}
+.div3 {
+    li{
+        list-style: none;
+        color: white;
+    }
+}
+.div4 {
+    display: flex;
+    flex-direction: column;
+    li{
+        list-style: none;
+    }
+}
+.dv4-f {
+
+    display: flex;
+    h1{
+        font-size: 14px;
+        color: white;
+    }
+}
+.dv4-p {
+    color: white;
+}
+.price {
+    display: flex;
+    align-items: center;
+    h1{
+        border: 1px solid orange;
+        border-radius: 50px;
+        padding: 10px;
+        background-color: orange;
+        font-size: 14px;
+        color: white;
+    }
+    img{
+        margin-left: 10px;
+    }
+}
+.div5 {
+    li{
+        list-style: none;
+        color: white;
+    }
+}
+
+.div1-btn {
+    border: 1px solid orange;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: orange;
+    font-size: 14px;
+    color: white;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+.price320 {
+    display: none;
+
+}
+.sltnz {
+    display: none;
+}
+@media (max-width: 320px){
+    .sltnz {
+        display: none;
+    }
+    .sltn {
+        max-width: 97px;
+        height: 47px;
+        display: flex;
+        
+    }
+    .price320 {
+        display: flex;
+        align-items: center;
+        margin: 8px;
+        h1{
+            width: max-content;
+            border: 1px solid orange;
+            border-radius: 50px;
+            padding: 0px 0px 9px 0px;
+            background-color: orange;
+            font-size: 10px;
+            color: white;
+        }
+        img{
+            margin-left: 10px;
+        }
+    }
+    .price {
+        display: none;
+    }
+    .price-flx {
+        display: flex;
+        justify-content: space-around;
+    }
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start
+}
+.slt-hd {
+    display: block;
+}
+.sltnz {
+    display: none;
+}
+}
